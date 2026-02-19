@@ -27,7 +27,7 @@ st.sidebar.caption(
 
 option = st.sidebar.selectbox(
     'Select one',
-    ['About the Project', 'Key Observations', 'CareCost Predictor', 'Features comparison']
+    ['About the Project', 'Key Observations', 'CareCost Predictor']
 )
 
 @st.cache_data
@@ -175,7 +175,7 @@ Older individuals show higher medical expenditure patterns.
 
 elif option == "CareCost Predictor":
 
-    st.title("🤖 CareCost Insurance Cost Predictor")
+    st.title("🤖 CareCost Predictor")
     st.markdown("Enter your details below to estimate your medical insurance cost.")
 
     col1, col2 = st.columns(2)
